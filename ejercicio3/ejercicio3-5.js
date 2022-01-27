@@ -1,10 +1,6 @@
-// var num1 = prompt("Ingresa 1er número")
-// var num2 = prompt("Ingresa 2do número")
-// var num3 = prompt("Ingresa 3er número")
-
-var num1 = 
-var num2 = 
-var num3 = 
+var num1 = prompt("Ingresa 1er número")
+var num2 = prompt("Ingresa 2do número")
+var num3 = prompt("Ingresa 3er número")
 if (num1 == num2 || num1 == num3){
     console.log("Hay dos números iguales" + " " + num1)
     } else if (num2 == num1 || num2 == num3){
