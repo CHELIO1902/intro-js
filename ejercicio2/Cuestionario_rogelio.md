@@ -91,6 +91,6 @@ sport === undefined
 
 > _false_
 
-> _rtrue_
+> _true_
 
 
