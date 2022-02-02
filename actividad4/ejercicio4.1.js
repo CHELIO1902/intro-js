@@ -3,8 +3,8 @@
 var num = prompt("Ingrese un número")
 var i = 1
 while (i <= num){
-  i ++
  if (i % 5 === 0){
   console.log(i)
  }
+ i ++
 }
