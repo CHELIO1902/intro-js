@@ -5,14 +5,15 @@ false. En cambio si mando "mundo" entonces debe retornar true. */
 
        
 
-var valorBuscado = ["hola mundo"]
+var valorBuscado = ["hola ", "mundo"]
 
-function palabraDada (oracion, mundo){
-    for(var i = 0; i === (Array.includes()); i++){
-        if (valorBuscado == Array.includes("mundo"))
-        console.log(true)
+function palabraDada (oracion, palabra){
+    for(var i = 0; i < oracion.length; i++){
+        if (oracion.includes(palabra)){
+            console.log(true)
+            break
+        } 
     }
 }
-console.log(false)
 
-palabraDada("mundo")
+palabraDada(valorBuscado, "perro")
