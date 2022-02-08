@@ -4,8 +4,8 @@ sus elementos */
 var numbers = [ 1, 2, 3, 4, 10, 11 ]
 var total = 0
 
-for(var i = 0; i <= numbers.length; i++){
-    if(numbers[i] += total)
-    console.log(total)
+for(var i = 0; i < numbers.length; i++){
+   total = total + numbers[i]
 }
+console.log(total)
 

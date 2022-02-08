@@ -12,8 +12,10 @@ function palabraDada (oracion, palabra){
         if (oracion.includes(palabra)){
             console.log(true)
             break
-        } 
+        }else{
+            return false
+        }
     }
 }
 
-palabraDada(valorBuscado, "perro")
+palabraDada(valorBuscado, "gato")
