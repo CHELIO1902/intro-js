@@ -1,0 +1,58 @@
+.container {  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr 1fr;
+  grid-template-rows: 10% 20% 20% 20% 10%;
+  grid-auto-columns: 1fr;
+  gap: 5px 3px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . ."
+    ". consultar-saldo output ."
+    ". ingresar-monto input1 ."
+    ". retirar-monto input2 ."
+    ". . . .";
+}
+
+.consultar-saldo { grid-area: consultar-saldo; }
+
+button {
+  cursor: pointer;
+  background-color: #3C3D40;
+  height: 107px;
+  width: 100%;
+  color: white;
+}
+
+
+.ingresar-monto { grid-area: ingresar-monto; }
+
+.retirar-monto { grid-area: retirar-monto; }
+
+.output { grid-area: output; }
+
+.input1 { grid-area: input1; }
+
+.input2 { grid-area: input2; }
+
+
+html, body , .container {
+  height: 95%;
+}
+
+/* For presentation only, no need to copy the code below */
+
+/* .container * {
+  border: 1px solid red;
+  position: relative;
+} */
+
+/* .container *:after {
+  content:attr(class);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+} */

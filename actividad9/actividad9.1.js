@@ -96,7 +96,7 @@ console.log(student)
  
  const objeto1 = {}
   
-  Con las siguiente propiedades:
+  /*Con las siguiente propiedades:
     * color
     * tamaño
     * peso
