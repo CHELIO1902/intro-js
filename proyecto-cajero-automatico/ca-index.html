@@ -23,25 +23,46 @@
     <!-- inicia pantalla del cajero -->
     <div class="container">
       <div class="consultar-saldo">
-        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-success" id="consultarSaldo">Consultar Saldo</button>
         <!-- <button type="button" value="=" onclick="display">Consultar Saldo</button> -->
       </div>
       <div class="ingresar-monto ">
-        <button type="button" class="btn btn-warning ">Warning</button>
+        <button type="button" class="btn btn-warning" value="+" onclick="agregarSaldo()">Depositar</button>
         <!-- <button>Ingresar Monto</button> -->
       </div>
       <div class="retirar-monto">
-        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-danger" value="-" onclick="retirarSaldo()">Retirar</button>
         <!-- <button>Retirar Monto</button> -->
       </div>
       <!-- displays de entrada y salido -->
-      <div class="output">output</div>
-      <div class="input1">input1</div>
-      <div class="input2">input2</div>
+
+      <!-- boton de salida -->
+
+      <!-- display usuario -->
+      <div class="display">
+        <p id="output">
+
+        </p>
+      </div>
+      <!-- fin display para usuario -->
+
+      <!-- boton de entrada Ingresar monto -->
+      <div class="input1 form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label class="text-muted" for="floatingTextarea">Ingresa cantidad a depositar</label>
+      </div>
+
+      <!-- boton de entrada Retirar monto -->
+      <div class="input2 form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label class="text-muted" for="floatingTextarea">Ingresa cantidad a retirar</label>
+      </div>
     </div>
 
 
   <!-- script de bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="./ca-js.js"></script>
+  <!-- <script src="./login.js"></script> -->
 </body>
 </html>
