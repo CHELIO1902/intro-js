@@ -12,6 +12,8 @@
   
   <!-- inicia el nav -->
   <nav class="navbar navbar-light bg-dark bg-gradient ">
+    <!-- boton cierre de sesion -->
+    <!-- fin boton cierre de cesion -->
     <div class="container-fluid d-flex justify-content-center">
       <span class="navbar-text text-center mt-2 text-light ">
         Inicio de sesión <br> Banco del Sureste
@@ -48,16 +50,20 @@
 
       <!-- boton de entrada Ingresar monto -->
       <div class="input1 form-floating">
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <textarea class="form-control" placeholder="Leave a comment here" id="ingresoCantidad" style="height: 100px"></textarea>
         <label class="text-muted" for="floatingTextarea">Ingresa cantidad a depositar</label>
       </div>
 
       <!-- boton de entrada Retirar monto -->
       <div class="input2 form-floating">
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <textarea class="form-control" placeholder="Leave a comment here" id="retiroCantidad" style="height: 100px"></textarea>
         <label class="text-muted" for="floatingTextarea">Ingresa cantidad a retirar</label>
       </div>
+      <div class="d-grid gap-2 justify-content-md-start mt-3">
+        <button class="btn btn-primary" onclick="cierreSesion()" type="button">Cerrar sesion</button>
+      </div>
     </div>
+    
 
 
   <!-- script de bootstrap -->
